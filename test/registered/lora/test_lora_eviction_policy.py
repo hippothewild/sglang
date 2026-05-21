@@ -24,7 +24,7 @@ from sglang.test.ci.ci_register import register_cpu_ci, register_amd_ci, registe
 
 register_cuda_ci(est_time=200, suite="nightly-1-gpu", nightly=True)
 register_amd_ci(est_time=200, suite="nightly-amd-1-gpu", nightly=True)
-register_cpu_ci(est_time=6, suite="stage-c-test-cpu")
+register_cpu_ci(est_time=6, suite="base-b-test-cpu")
 
 
 class TestLoRAEvictionPolicy(unittest.TestCase):
